@@ -10,8 +10,8 @@ CONFIG += c++17 thread
 
 INCLUDEPATH += "./include"
 
-QMAKE_LFLAGS += -Wl,-rpath,"../lab_Koch/lib"
-LIBS += -L"../lab_Koch/lib" -lhv
+QMAKE_LFLAGS += -Wl,-rpath,"../NSTU/lab_Koch/lib"
+LIBS += -L"../NSTU/lab_Koch/lib" -lhv
 
 SOURCES += \
     main.cpp \
